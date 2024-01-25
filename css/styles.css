@@ -191,3 +191,404 @@ nav .navWrapper .downloadBtn a {
   width: 100%;
 }
 /* *****************partnes css end ******************* */
+
+/* *****************partnes css end ******************* */
+#contact {
+  background: #c8c8c8;
+  background-image: url(../images/contact-bg.png);
+}
+.contactWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+.contactWrapper .contact-text {
+  width: 50%;
+}
+.contactWrapper .contact-text h2 {
+  color: #09090b;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 13px;
+}
+.contactWrapper .contact-text p {
+  color: #52525b;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+.contactWrapper .contact-text i {
+  color: var(--primary);
+  padding: 8px 16px;
+  background: rgb(234, 88, 12, 0.2);
+}
+.contactWrapper .contact-form {
+  background: #fff;
+  width: 50%;
+  padding: 29px 20px;
+  border-radius: 8px;
+}
+.contactWrapper .contact-form h {
+  color: #09090b;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.contactWrapper .contact-form p {
+  color: #71717a;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.contactWrapper .contact-form label {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.contactWrapper .contact-form input {
+  width: 100%;
+  border-radius: 6px;
+  background: #c8c8c8;
+  padding: 12px 0;
+  margin-bottom: 21px;
+  outline: 0;
+  border: 1px inset #c8c8c8;
+}
+.contactWrapper .contact-form input::placeholder {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7f7f87;
+}
+.contactWrapper .contact-form button {
+  color: #fff;
+  background: #000;
+  padding: 10px 23px;
+  border-radius: 8px;
+}
+/* *****************contact css end ******************* */
+
+/* *****************partnes css end ******************* */
+#services {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+#services h5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #09090b;
+  border-radius: 6px;
+  border: 1px solid #c8c8c8;
+  width: 123px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#services h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #09090b;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 55px 0 73px 0;
+}
+#services .serviceWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+#services .serviceWrapper .serviceCard {
+  background: #e5e4e2;
+  width: 424px;
+  text-align: center;
+  padding: 14px;
+}
+#services .serviceWrapper .serviceCard h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #09090b;
+  margin: 24px 0;
+}
+#services .serviceWrapper .serviceCard p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #71717a;
+  margin: 24px 0;
+}
+#services .serviceWrapper .serviceCard a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #09090b;
+}
+/* *****************partnes css end ******************* */
+
+/* *****************performance css start ******************* */
+#performance {
+  background: #f4f4f5;
+  padding: 48px;
+}
+.perfomance-wprapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 62px;
+}
+.performance-img {
+  width: 45%;
+}
+.performance-img img {
+  width: 100%;
+}
+.performancc-text {
+  width: 55%;
+}
+.performancc-text h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #09090b;
+  margin-bottom: 25px;
+}
+.performancc-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #27272a;
+  margin-bottom: 21px;
+}
+.performancc-text .sucess-matrix {
+  display: flex;
+  gap: 15px;
+}
+.performancc-text .sucess-matrix h3 {
+  font-size: 48px;
+  color: #09090b;
+  font-weight: 500;
+}
+.performancc-text .sucess-matrix p {
+  font-size: 19px;
+  color: #71717a;
+  font-weight: 500;
+}
+/* *****************performance css end ******************* */
+
+/* *****************FAQ css start ******************* */
+#faq {
+  background: #71717a;
+  padding: 21px 0 18px 0;
+}
+#faq h5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #09090b;
+  border-radius: 6px;
+  border: 1px solid #c8c8c8;
+  width: 123px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#faq h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #09090b;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 55px 0 73px 0;
+}
+.faq-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.faq-text-area .faq-text-card {
+  background: #d9d9d9;
+  width: 590px;
+  padding: 16px 25px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-text-area .faq-text-card h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
+.faq-text-area .faq-text-card p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #71717a;
+}
+
+.faq-img-area img {
+  width: 100%;
+}
+/* *****************FAQ css end ******************* */
+
+/* *****************testimonials css start ******************* */
+#testimonials {
+  background: url(../images/testimonial-bg.png);
+  padding: 37px 0 18px 0;
+}
+#testimonials h5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #09090b;
+  border-radius: 6px;
+  border: 1px solid #c8c8c8;
+  width: 261px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#testimonials h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #09090b;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 55px 0 73px 0;
+}
+.testimonials-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.testimonials-wrapper .left {
+  text-align: left;
+}
+.testimonials-wrapper .right {
+  text-align: right;
+}
+.testimonials-wrapper i {
+  width: 20%;
+  color: #09090b;
+  font-size: 40px;
+}
+.testimonials-wrapper .testimonials-content {
+  text-align: center;
+  width: 60%;
+}
+.testimonials-wrapper .testimonials-content i {
+  color: #7f7f87;
+}
+.testimonials-wrapper .testimonials-content p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #71717a;
+  margin: 16px 0 32px 0;
+}
+.testimonials-wrapper .testimonials-content h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #09090b;
+}
+/* *****************testimonials css end ******************* */
+
+/* *****************BLOG css start ******************* */
+#blog {
+  background: url(../images/testimonial-bg.png);
+  padding: 37px 0 18px 0;
+}
+#blog h5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #09090b;
+  border-radius: 6px;
+  border: 1px solid #c8c8c8;
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#blog h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #09090b;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 11px;
+}
+#blog .blog-des {
+  font-size: 20px;
+  font-weight: 500;
+  color: #71717a;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+  width: 858px;
+}
+.blog-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.blog-card {
+  width: 323px;
+  text-align: center;
+  margin: 37px 0;
+}
+.blog-card img {
+  width: 100%;
+}
+.blog-card p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #09090b;
+  margin-top: 11px;
+}
+/* *****************BLOG css end ******************* */
+
+/* *****************footer css start ******************* */
+footer {
+  margin: 71px 0;
+  border-top: 1px solid #71717a;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+/* .footer-top .subscribe {
+  width: 50%;
+} */
+.footer-top .subscribe p {
+  font-size: 20px;
+  color: #09090b;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+.footer-top .subscribe input {
+  width: 519px;
+  background: #f4f4f5;
+  border: 2px solid #d8d8d8;
+  padding: 5px 18px;
+}
+.footer-top .subscribe form {
+  position: relative;
+}
+.footer-top .subscribe form button {
+  position: absolute;
+  right: 0;
+  background: rgba(234, 88, 12, 0.2);
+  color: var(--primary);
+  font-size: 23px;
+  border: none;
+  width: 58px;
+}
+/* .footer-top .company {
+  width: 100%;
+}
+.footer-top .social-media {
+  width: 10%;
+}
+.footer-top .legal-press {
+  width: 10%;
+} */
+/* *****************footer css end ******************* */
