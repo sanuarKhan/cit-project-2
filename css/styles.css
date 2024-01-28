@@ -547,25 +547,42 @@ nav .navWrapper .downloadBtn a {
 
 /* *****************footer css start ******************* */
 footer {
-  margin: 71px 0;
-  border-top: 1px solid #71717a;
+  margin-top: 71px;
+  background: #0a1535;
+  /* border-top: 1px solid #71717a; */
 }
 .footer-top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 74px;
+  border-top: 1px solid #52525b;
+  border-bottom: 1px solid #52525b;
+  padding: 20px 0;
 }
-/* .footer-top .subscribe {
-  width: 50%;
-} */
+.footer-top h3 {
+  color: #bfbff6b3;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-top ul li a {
+  color: #3f3fa1f7;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-top .subscribe {
+  width: 42%;
+}
 .footer-top .subscribe p {
   font-size: 20px;
-  color: #09090b;
+  color: #a0a0f7;
   font-weight: 500;
   margin-bottom: 28px;
+  width: 33rem;
 }
 .footer-top .subscribe input {
-  width: 519px;
+  width: 100%;
   background: #f4f4f5;
   border: 2px solid #d8d8d8;
   padding: 5px 18px;
@@ -582,13 +599,16 @@ footer {
   border: none;
   width: 58px;
 }
-/* .footer-top .company {
-  width: 100%;
+.footer-bottom {
+  display: flex;
+  padding-bottom: 1em;
 }
-.footer-top .social-media {
-  width: 10%;
+.footer-bottom .copyright {
+  width: 50%;
 }
-.footer-top .legal-press {
-  width: 10%;
-} */
+.footer-bottom .policy {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
 /* *****************footer css end ******************* */
